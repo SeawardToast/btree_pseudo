@@ -1,0 +1,8 @@
+WHEN SEARCHING FOR TARGET IN B TREE
+
+subtree i has data that is less than i. subtree i+1 has data greater than i
+
+create local variable i equal to the first index such that data[i] is not less than the target - if no such index exists, set i to data_count
+if found target at data[i] then done return true aka item is neither greater than nor less than
+else if node has no children then done and return false, the target does not exist
+else recursively search subtree[i] for target
