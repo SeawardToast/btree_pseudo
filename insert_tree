@@ -1,0 +1,8 @@
+make a local variable i equal to the first index such that data[i] is not less than entry - if no such index exists, then set i to data_count
+
+if entry is found at data[i] then done the target already in tree (for set implementation)
+
+else if node is root with no children then add entry to root at data[i]
+else make recursive call to subtree[i]
+if subset[i] violates b tree property then 
+FIX PROBLEM
